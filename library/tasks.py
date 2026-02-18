@@ -20,7 +20,7 @@ def send_loan_notification(loan_id):
         )
     except Loan.DoesNotExist:
         pass
-
+#new added
 @shared_task
 def check_overdue_loans():
     """
